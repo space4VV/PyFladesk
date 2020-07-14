@@ -65,6 +65,8 @@ from routes import *
 if __name__ == '__main__':
     init_gui(app)
 ```
+## For Dash/plotly applications
+In orderto use this with a dash/plotly application please replace init_gui(app) with init_gui(app.server).
 
 ## Parameters
 
